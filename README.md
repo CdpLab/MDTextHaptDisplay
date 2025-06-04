@@ -25,7 +25,7 @@ The objective of this study is to establish a mapping relationship between multi
 <h3 align="center">DETAILS OF IMPLEMENT</h3>
 
 ### Environmental equipment
-Configure necessary environment packages based on `requirements. txt`.
+Configure necessary environment packages based on `requirements.txt`.
 
 ### Parameter path setting
 Enter `configs/configs.py` to adjust the path of the data file.
