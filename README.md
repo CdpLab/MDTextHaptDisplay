@@ -19,10 +19,13 @@ The haptic perception of texture has significant multi-dimensional characteristi
 The objective of this study is to establish a mapping relationship between multi-modal information (texture images *i*, sliding speed *v*, and normal pressure *p*) and multi-dimensional haptic outputs (acceleration signal *a* and friction signal *f*), which can be represented as *g(i, v, p) → a, f*, where *g* represents the prediction model. Taking inspiration from existing work, this paper designs a multi-dimensional texture haptic rendering model based on real-time action information, and its overall structure is shown below.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a59cd66e-ffbf-4de1-a834-ec9a20d8853f" alt="fig1" width="600"/>
+  <img src="Multi-dimensional%20texture%20haptic%20rendering%20model.jpg" alt="fig1" width="1000"/>
 </p>
 
 <h3 align="center">DETAILS OF IMPLEMENT</h3>
 
 ### Dataset
 We used the SENS3 dataset and the 70 real texture sample data we collected as the training and testing sets for the model. The SENS3 dataset covers 50 different texture images from 10 categories, and includes data on three-axis forces, torques, and velocities recorded by experimenters sliding on each texture surface for 5 seconds under controlled force velocity matrix conditions. We take the force component in the *z* axis direction as the compressive force, and calculate the frictional force by synthesizing the force components in the *x* and *y* axes. Its magnitude can be expressed as: *f = √(Fx² + Fy²)*.
+For more details, see https://link.springer.com/chapter/10.1007/978-3-031-70058-3_21
+
+###Data Preparation
