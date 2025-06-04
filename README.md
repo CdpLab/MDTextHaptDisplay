@@ -27,6 +27,12 @@ The objective of this study is to establish a mapping relationship between multi
 ### Environmental equipment
 Configure necessary environment packages based on `requirements. txt`.
 
+### Parameter path setting
+Enter `configs/configs.py` to adjust the path of the data file.
+```bash
+configs/configs.py
+```
+
 ### Dataset
 We used the SENS3 dataset and the 70 real texture sample data we collected as the training and testing sets for the model. The SENS3 dataset covers 50 different texture images from 10 categories, and includes data on three-axis forces, torques, and velocities recorded by experimenters sliding on each texture surface for 5 seconds under controlled force velocity matrix conditions. We take the force component in the *z* axis direction as the compressive force, and calculate the frictional force by synthesizing the force components in the *x* and *y* axes. Its magnitude can be expressed as: *f = √(Fx² + Fy²)*.
 For more details, see https://link.springer.com/chapter/10.1007/978-3-031-70058-3_21
@@ -42,10 +48,10 @@ Then run `utils/dataprocess.py`, align the excel data by file name and merge it 
 utils/dataprocess.py
 ```
 ### Model Training
-Adjust "args. is_training==1" in `configs/configs. py`, and use `main. py` to train the model. Adjust parameters such as epoch and batch_2 according to the training environment.
+Adjust "args. is_training==1" in `configs/configs.py`, and use `main.py` to train the model. Adjust parameters such as epoch and batch_2 according to the training environment.
 ```bash
-main. py
+main.py
 ```
 ### Testing
-Adjust "args. is_training==2" in `configs/configs. py`, and use `main. py` to validate results on the test set.
+Adjust "args. is_training==2" in `configs/configs.py`, and use `main.py` to validate results on the test set.
 
