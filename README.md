@@ -28,4 +28,4 @@ The objective of this study is to establish a mapping relationship between multi
 We used the SENS3 dataset and the 70 real texture sample data we collected as the training and testing sets for the model. The SENS3 dataset covers 50 different texture images from 10 categories, and includes data on three-axis forces, torques, and velocities recorded by experimenters sliding on each texture surface for 5 seconds under controlled force velocity matrix conditions. We take the force component in the *z* axis direction as the compressive force, and calculate the frictional force by synthesizing the force components in the *x* and *y* axes. Its magnitude can be expressed as: *f = √(Fx² + Fy²)*.
 For more details, see https://link.springer.com/chapter/10.1007/978-3-031-70058-3_21
 
-###Data Preparation
+### Data Preparation
