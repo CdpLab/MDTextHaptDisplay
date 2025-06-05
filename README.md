@@ -36,6 +36,7 @@ configs/configs.py
 ### Dataset
 We used the SENS3 dataset and the 70 real texture sample data we collected as the training and testing sets for the model. The SENS3 dataset covers 50 different texture images from 10 categories, and includes data on three-axis forces, torques, and velocities recorded by experimenters sliding on each texture surface for 5 seconds under controlled force velocity matrix conditions. We take the force component in the *z* axis direction as the compressive force, and calculate the frictional force by synthesizing the force components in the *x* and *y* axes. Its magnitude can be expressed as: *f = √(Fx² + Fy²)*.
 For more details, see https://link.springer.com/chapter/10.1007/978-3-031-70058-3_21
+The partially collected multi-dimensional texture data can be viewed in the folder "The dataset we collected".
 
 ### Data Preparation
 Start by running `utils/data_deal.py` to retrieve and organize the required original dataset.
@@ -54,4 +55,10 @@ main.py
 ```
 ### Testing
 Adjust "args. is_training==2" in `configs/configs.py`, and use `main.py` to validate results on the test set.
+
+### Real Texture Modeling
+Before using the model for real texture modeling, run `utils/dataset.py` to adjust the format of images corresponding to real textures, ensuring consistency with our dataset's image format.
+```bash
+utils/dataset.py
+```
 
