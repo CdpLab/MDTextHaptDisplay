@@ -1,0 +1,8 @@
+causal-conv1d==1.2.0
+cuda-nvcc==11.8
+mamba-ssm==1.2.0
+pandas==2.0.3
+transformers==4.39.2
+trition==2.1.0
+torch==2.1.1.
+python==3.10
