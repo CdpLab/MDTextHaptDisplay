@@ -1,18 +1,18 @@
 # Multi-Dimensional Texture Haptic Modeling and Display Method
 
 <p align="center">
-Dapeng Chen, Yi Ding, xxx, xxx, Jia Liu, and Aiguo Song  
+Dapeng Chen, Yi Ding, Peng Gao, Haojun Ni, Hong Zeng, Chengcheng Hua, Jia Liu, and Aiguo Song 
 </p>
 
 <p align="center">
-Nanjing University of Information Science & Technology  
+Nanjing University of Information Science and Technology  
 </p>
 
 <br/>
 
 <h3 align="center">ABSTRACT</h3>
 
-The haptic perception of texture has significant multi-dimensional characteristics, mainly composed of key attributes such as roughness, friction, and hardness. These dimensions not only reflect the microstructure of object surfaces, but also serve as the foundation for achieving real haptic feedback in virtual interactions. The integration of multi-dimensional perception enhances the consistency and immersion of haptic rendering, especially in dynamic interactions that integrate user action information. However, existing modeling methods often focus on a single dimension, which is difficult to meet the demand for high immersion and adaptability. Therefore, we proposed an end-to-end multi-dimensional texture haptic rendering model. This model takes the Mamba encoder as the core, integrates texture images and the real-time action information of users, and jointly predicts high-quality acceleration and friction signals. To train and validate the model, a set of equipment for collecting sliding speed and normal pressure was designed. Data interacting with 70 real textures were collected, and a training set was constructed in combination with the SENS3 dataset. The model demonstrated superior predictive ability and generalization in four performance tests, with the delay of the haptic reproduction system controlled between 32$\sim$38 ms, below the 40 ms haptic perception threshold. Finally, we conducted a user experiment. The results indicate that the rendering model that integrates roughness and friction feedback significantly improves the accuracy of users in distinguishing between real and virtual textures, effectively enhancing the realistic experience of virtual textures.
+The haptic perception of texture has significant multi-dimensional characteristics, mainly composed of key attributes such as roughness, friction, and hardness. These dimensions not only reflect the microstructure of object surfaces, but also serve as the foundation for achieving real haptic feedback in virtual interactions. The integration of multi-dimensional perception enhances the consistency and immersion of haptic rendering, especially in dynamic interactions that integrate user action information. However, existing modeling methods often focus on a single dimension, which is difficult to meet the demand for high immersion and adaptability. Therefore, we proposed an end-to-end multi-dimensional texture haptic rendering model. This model takes the Mamba encoder as the core, integrates texture images and the real-time action information of users, and jointly predicts high-quality acceleration and friction signals. To train and validate the model, a set of equipment for collecting sliding speed and normal pressure was designed. Data interacting with 70 real textures were collected, and a training set was constructed in combination with the SENS3 dataset. The model demonstrated superior predictive ability and generalization in four performance tests, with the delay of the haptic reproduction system controlled between 32~38 ms, below the 40 ms haptic perception threshold. Finally, we conducted a user experiment. The results indicate that the rendering model that integrates roughness and friction feedback significantly improves the accuracy of users in distinguishing between real and virtual textures, effectively enhancing the realistic experience of virtual textures.
 
 <h3 align="center">MULTI-DIMENSIONAL TEXTURE HAPTIC RENDERING MODEL</h3>
 
