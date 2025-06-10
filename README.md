@@ -1,7 +1,7 @@
 #  <p align="center">Multi-Dimensional Texture Haptic Modeling and Display Method</p>
 
 <p align="center">
-Dapeng Chen, Yi Ding, Peng Gao, Haojun Ni, Hong Zeng, Chengcheng Hua, Jia Liu, and Aiguo Song 
+Dapeng Chen, Yi Ding, Peng Gao, Haojun Ni, Hong Zeng, Jia Liu, and Aiguo Song 
 </p>
 
 <p align="center">
