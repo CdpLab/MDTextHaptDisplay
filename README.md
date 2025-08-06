@@ -19,7 +19,7 @@ The haptic perception of texture has significant multi-dimensional (MD) characte
 The objective of this study is to establish a mapping relationship between multi-modal information (texture images *i*, sliding speed *v*, and normal pressure *p*) and multi-dimensional haptic outputs (acceleration signal *a* and friction signal *f*), which can be represented as *g(i, v, p) → a, f*, where *g(·)* represents the prediction model. Taking inspiration from existing work, this paper designs a multi-dimensional texture haptic rendering model based on real-time action information, and its overall structure is shown below.
 
 <p align="center">
-  <img src="Multi-dimensional%20texture%20haptic%20rendering%20model.jpg" alt="fig1" width="1000"/>
+  <img src="fig.1.jpg" alt="fig1" width="1000"/>
 </p>
 
 <h3 align="center">DETAILS OF IMPLEMENT</h3>
