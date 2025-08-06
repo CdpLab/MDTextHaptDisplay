@@ -1,7 +1,7 @@
 # Multi-dimensional Texture Haptic Cross-modal Generation and Display Method based on Bi-Mamba Network
 
 <p align="center">
-Dapeng Chen, Yi Ding, Peng Gao, Haojun Ni, Hong Zeng, Chengcheng Hua, Jia Liu, and Aiguo Song 
+Dapeng Chen, Yi Ding, Peng Gao, Haojun Ni, Hong Zeng, Jia Liu, and Aiguo Song 
 </p>
 
 <p align="center">
